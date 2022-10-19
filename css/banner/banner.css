@@ -1,0 +1,51 @@
+.banner__container{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    margin-right: 152px;
+}
+.banner__titulo__container{
+    width: 751px;
+    height: 122px;
+    margin-right: 17px;
+    margin-top: 45px;
+}
+.banner__titulo{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61.05px;
+    color: #464646;
+}
+.banner__titulo__descripcion{
+    color: #464646;
+    font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+padding-top: 24px;
+}
+.banner__imagen{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+.banner__lista{
+    display: flex;
+}
+.banner__item{
+    list-style: none;
+margin-right: 55px;
+
+}
+.banner__item__enlace{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.banner__item__enlace:hover{
+    text-decoration: underline;
+}
+.banner__item__vector{
+    margin-left: 6px;
+}
