@@ -1,0 +1,24 @@
+.sobre__container{
+    background: #EAF2FD;
+    height: 383px;
+    width: auto;
+}
+.sobre__container__texto{
+    margin-top: 54px;
+    margin-left: 128px;
+    padding-top: 64px;
+    padding-right: 550px;
+
+}
+.sobre__titulo{
+    font-weight: 700;
+font-size: 32px;
+color: #464646;
+
+}
+.sobre__descripcion{
+    color: #464646;
+    font-weight: 400;
+font-size: 16px;
+
+}

@@ -1,8 +1,6 @@
-body{
-    background: #F5F5F5;
 
-}
 .body__container{
+    width: 1424px;
+    height: auto;
     font-family: 'Raleway', sans-serif;
-margin-left: 153px;
 }
