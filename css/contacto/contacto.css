@@ -1,0 +1,83 @@
+.contacto{
+    background: #EAF2FD;
+    width: auto;
+    height: 788px;
+}
+
+.contacto__container{
+  display: flex;
+    }
+    .contacto__container__form{
+      width: 100%;
+      display: grid;
+      gap: 1rem;
+      grid-auto-columns: 100%;
+      width: 90%;
+      max-width: 600px;
+      padding: 3.5rem 1rem;
+      margin-top: 75px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+font-size: 16px;
+color: #A2A2A2;
+          }
+      
+.contacto__form__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+.contacto__form__subtitulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+font-size: 16px;
+color: #464646;
+
+}
+.contacto__imagen{
+    margin-left: 152px;
+    margin-top: 130px;
+    width: 464px;
+height: 593px;
+}
+.contacto__input{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 16px;
+    color: #464646;
+border: none;
+width: 656px;
+height: 56px;
+background: #FFFFFF;
+border-radius: 4px;
+outline: none;
+
+}
+
+.contacto__input:active{
+    border-bottom: 1px solid #2A7AE4;
+}
+.contacto__input__mensaje{
+    width: 656px;
+    height: 133px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    resize: none;
+    
+}
+.contacto__boton__enviar{
+    font-family: 'Raleway';
+    font-style: normal;
+  margin-top: 40px;
+width: 144px;
+height: 51px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border: none;
+}

@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 32px;
+gap: 10px;
+width: auto;
+height: 102px;
+background: #FFFFFF;
+}
+.footer__rodapie{
+    font-family: 'Raleway';
+font-style: normal;
+    font-weight: 500;
+font-size: 16px;
+color: #464646;
+    text-align: center;
+}

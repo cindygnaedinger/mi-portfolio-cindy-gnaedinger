@@ -1,0 +1,64 @@
+.formacion {
+    background: #EAF2FD;
+    height: 600px;
+    width: auto;
+}
+
+.formacion__titulo-principal {
+    font-family: 'Raleway';
+font-style: normal;
+    padding-top: 100px;
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #464646;
+}
+
+.formacion__titulo {
+    font-family: 'Raleway';
+font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+}
+
+.formacion__subtitulo {
+    font-family: 'Raleway';
+font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.formacion__container {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.formacion__card {
+    width: 368px;
+    height: 286px;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-right: 16px;
+
+
+}
+
+.formacion__imagen {
+    width: 192px;
+    height: 130px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 95px;
+}
+
+.formacion__imagen {
+    display: flex;
+}

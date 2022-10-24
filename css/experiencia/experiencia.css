@@ -1,0 +1,84 @@
+.experiencia{
+    width: 1440px;
+height: 2050px;
+background: #F5F5F5;
+}
+.experiencia__titulo-principal{
+    padding: 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #464646;
+}
+.experiencia__container{
+    display: flex;
+    margin-left: 150px;
+    width: 1200px;
+height: auto;
+}
+.experiencia__imagen{
+    width: 752px;
+height: 406px;
+margin-top: 64px;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+.experiencia__container-2{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.experiencia__contenido{
+    margin-left: 16px;
+    margin-top: 150px;
+}
+.experiencia__titulo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+color: #464646;
+}
+.experiencia__subtitulos{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #464646;
+}
+.experiencia__boton__repositorio{
+    font-family: 'Raleway';
+font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 16px;
+    margin-right: 16px;
+    background-color: #fff;
+}
+.experiencia__boton__demo{
+    font-family: 'Raleway';
+font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    padding: 16px;
+    margin-right: 147px;
+
+}
+.experiencia__enlace{
+    text-decoration: none;
+color: #2A7AE4;
+}
+.experiencia__enlace-2{
+    text-decoration: none;
+color: #fff;
+}
