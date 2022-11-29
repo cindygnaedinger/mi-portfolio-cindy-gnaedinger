@@ -16,7 +16,9 @@
 }
 .menu__header__titulo-activo:hover{
     text-decoration: underline;
-    color: rgba(236, 133, 49, 0.774);
+    color: #C3150B;
+    font-weight: bold;
+
 }
 .menu__header__imagen{
     width: 50px;
@@ -55,4 +57,5 @@ font-weight: 700;
 }
 .menu__item__enlace:hover{
     text-decoration: underline;
+    color: #C3150B;
 }

@@ -7,9 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contacto/inputs.css">
+    <link rel="stylesheet" href="css/base/variables.css">
     <link rel="stylesheet" href="css/menu/menu.css">
-    <link rel="stylesheet" href="css/menu/menu-header.css">
-    <link rel="stylesheet" href="css/menu/menu-nav.css">
     <link rel="stylesheet" href="css/body-container.css">
     <link rel="stylesheet" href="css/banner/banner.css">
     <link rel="stylesheet" href="css/sobre/sobre.css">
@@ -19,13 +19,6 @@
     <link rel="stylesheet" href="css/experiencia/experiencia.css">
     <link rel="stylesheet" href="css/contacto/contacto.css">
     <link rel="stylesheet" href="css/footer/footer.css">
-
-
-
-
-
-
-
 
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -38,7 +31,6 @@
 
 <body>
     <!-- 1. sección menú -->
-    <div class="body__container">
         <section class="menu">
             <header class="menu__header">
                 <img class="menu__header__imagen" src="img/android-chrome-192x192.png" alt="">
@@ -64,8 +56,7 @@
                 <img class="banner__imagen" src="img/imagen-perfil.jpg" alt="Imagen de perfil">
                 <div class="banner__titulo__container">
                     <h2 class="banner__titulo">Hola, mi nombre es Cindy Gnaedinger y construyo páginas web</h2>
-                    <h3 class="banner__titulo__descripcion">Formada en desarrollo front-end y traducción de inglés.
-                        Actualmente estoy participando del proyecto Oracle ONE en Alura Latam. Soy de Argentina y tengo 30 años.</h3>
+                    <h3 class="banner__titulo__descripcion">Formada en desarrollo web front-end. Actualmente estoy participando del proyecto Oracle ONE en Alura Latam. </h3>
                     <ul class="banner__lista">
                         <li class="banner__item"><a class="banner__item__enlace"
                                 href="https://github.com/cindygnaedinger" target="_blank"
@@ -81,6 +72,9 @@
                                     src="img/Vector.png" alt=""></a></li>
                         <li class="banner__item"><a class="banner__item__enlace" href="#">Currículo<img
                                     class="banner__item__vector" src="img/Vector.png" alt=""></a></li>
+                        <li class="banner__item"><a class="banner__item__enlace" href="#" target="_blank"
+                                rel="noopener noreferrer">Portfolio Arte<img class="banner__item__vector" src="img/Vector.png"
+                                    alt=""></a></li>
                     </ul>
                 </div>
             </div>
@@ -90,14 +84,9 @@
             <div class="sobre__container">
                 <div class="sobre__container__texto">
                     <h3 class="sobre__titulo">Sobre mi</h3>
-                    <p class="sobre__descripcion">Soy traductora de inglés - español y artista plástica autodidacta.
-                        Creo que el ámbito de la programación es fascinante porque combina el arte y los idiomas al
-                        mismo tiempo:</p>
-                    <p class="sobre__descripcion">Por un lado se relaciona con el arte porque estamos moldeando una
-                        realidad (virtual) utilizando un material intangible (código); y por otro, se relaciona con
-                        los idiomas porque para moldearlo es necesario hablarlo, es decir, conocer las reglas gramaticales que nos permiten comunicarnos con el ordenador.</p>
-                    <p class="sobre__descripcion">Esta combinación de ámbitos que encuentro y que me creo hacen que sea
-                        estimulante seguir aprendiendo y que mi visión como profesional se enriquezca.</p>
+                    <p class="sobre__descripcion">Traductora de inglés. Artista visual autodidacta y apasionada por la programación. Con más de 5 años de experiencia en los ambitos de la traducción y las artes visuales, busco redireccionar mi carrera profesional hacia el desarrollo web front-end.</p>
+                    <p class="sobre__descripcion"> En proceso de aprendizaje de HTML, CSS, JavaScript y Java.</p>
+                    <p class="sobre__descripcion">La programación me parece un campo muy rico porque es otra forma de crear, de moldear la realidad, utilizando un medio intangible para lograrlo.</p>
                 </div>
             </div>
         </section>
@@ -151,25 +140,25 @@
                 <div class="hobbies__box">
                     <ul class="hobbies__items">
                         <li class="hobbies__imagen"><img src="img/skating.png" alt="ícono de una persona en skate"></li>
-                        <li class="hobbies__nombre">Patinaje</li>
+                        <li class="hobbies__nombre">Pintar</li>
                     </ul>
                 </div>
                 <div class="hobbies__box">
                     <ul class="hobbies__items">
                         <li class="hobbies__imagen"><img src="img/guitar.png" alt="ícono de una guitarra"></li>
-                        <li class="hobbies__nombre">Tocar bajo</li>
+                        <li class="hobbies__nombre">Hacer escultura</li>
                     </ul>
                 </div>
                 <div class="hobbies__box">
                     <ul class="hobbies__items">
                         <li class="hobbies__imagen"><img src="img/auriculares.png" alt="ícono de auriculares"></li>
-                        <li class="hobbies__nombre">Oír música</li>
+                        <li class="hobbies__nombre">Natación</li>
                     </ul>
                 </div>
                 <div class="hobbies__box">
                     <ul class="hobbies__items">
                         <li class="hobbies__imagen"><img src="img/televisor.png" alt="ícono de un televisor"></li>
-                        <li class="hobbies__nombre">Ver series</li>
+                        <li class="hobbies__nombre">Naturaleza</li>
                     </ul>
                 </div>
                 <div class="hobbies__box">
@@ -181,7 +170,7 @@
                 <div class="hobbies__box">
                     <ul class="hobbies__items">
                         <li class="hobbies__imagen"><img src="img/camara.png" alt="ícono de una camara"></li>
-                        <li class="hobbies__nombre">Tomar fotos</li>
+                        <li class="hobbies__nombre">Leer</li>
                     </ul>
                 </div>
             </div>
@@ -192,103 +181,136 @@
             <h2 class="formacion__titulo-principal">Formación académica</h2>
             <div class="formacion__container">
                 <div class="formacion__card">
-                    <figure><img class="formacion__imagen" src="img/logo-uap.png" alt="logo de uap"></figure> 
-                        <h3 class="formacion__titulo">Traductorado de Inglés</h3>
-                        <p class="formacion__subtitulo">2016 - UAP</p>
+                    <figure><img class="formacion__imagen" src="img/logo-uap.png" alt="logo de uap"></figure>
+                    <h3 class="formacion__titulo">Traductorado de Inglés</h3>
+                    <p class="formacion__subtitulo">2016 - UAP</p>
                 </div>
-                    <div class="formacion__card">
-                        <figure><img class="formacion__imagen" src="img/logo-alura.png" alt="logo de alura"></figure>
-                            <h3 class="formacion__titulo">Desarrollo Web Front-End</h3>
-                            <p class="formacion__subtitulo">En curso - Alura</p>
-                        </div>
-                        <div class="formacion__card">
-                            <figure><img class="formacion__imagen" src="img/logo-codecademy.png" alt="logo de codecademy"></figure> 
-                                <h3 class="formacion__titulo">HTML, CSS, JavaScript</h3>
-                                <p class="formacion__subtitulo">2022 - Codecademy</p>
-                            </div>
-                        </div>
-                    </div>
-        </section>
-        <!-- 7. experiencia -->
-        <section class="experiencia" id="experiencia">
-            <h2 class="experiencia__titulo-principal">Experiencia profesional</h2>
+                <div class="formacion__card">
+                    <figure><img class="formacion__imagen" src="img/logo-alura.png" alt="logo de alura"></figure>
+                    <h3 class="formacion__titulo">Desarrollo Web Front-End</h3>
+                    <p class="formacion__subtitulo">En curso - Alura</p>
+                </div>
+                <div class="formacion__card">
+                    <figure><img class="formacion__imagen" src="img/logo-codecademy.png" alt="logo de codecademy">
+                    </figure>
+                    <h3 class="formacion__titulo">HTML, CSS, JavaScript</h3>
+                    <p class="formacion__subtitulo">2022 - Codecademy</p>
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- 7. experiencia -->
+    <section class="experiencia" id="experiencia">
+        <h2 class="experiencia__titulo-principal">Experiencia profesional</h2>
 
-            <div class="experiencia__container">
+        <div class="experiencia__container">
 
-                <img src="img/experiencia-1.png" alt="imagen del encriptador" class="experiencia__imagen">
-                <div class="experiencia__contenido">
-                    <h2 class="experiencia__titulo">Encriptador de texto</h2>
-                    <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
-                    <button class="experiencia__boton__repositorio experiencia__boton__texto"> <a href="https://github.com/cindygnaedinger/encriptador-texto" target="_blank"
+            <img src="img/experiencia-1.png" alt="imagen del encriptador" class="experiencia__imagen">
+            <div class="experiencia__contenido">
+                <h2 class="experiencia__titulo">Encriptador de texto</h2>
+                <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
+                <button class="experiencia__boton__repositorio experiencia__boton__texto"> <a
+                        href="https://github.com/cindygnaedinger/encriptador-texto" target="_blank"
                         rel="noopener noreferrer" class="experiencia__enlace">Repositorio</a></button>
-                    <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2" href="https://cindygnaedinger.github.io/encriptador-texto/" target="_blank" rel="noopener noreferrer">Ver demo</a></button>
-                </div>
+                <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2"
+                        href="https://cindygnaedinger.github.io/encriptador-texto/" target="_blank"
+                        rel="noopener noreferrer">Ver demo</a></button>
             </div>
-            <div class="experiencia__container experiencia__container-2">
+        </div>
+        <div class="experiencia__container experiencia__container-2">
 
-                <img src="img/experiencia-2.png" alt="imagen del encriptador" class="experiencia__imagen">
-                    <div class="experiencia__contenido">
-                        <h2 class="experiencia__titulo">Encriptador de texto</h2>
-                        <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
-                        <button class="experiencia__boton__repositorio experiencia__boton__texto"><a href=""class="experiencia__enlace">Repositorio</a></button>
-                        <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2" href="">Ver demo</a></button>
+            <img src="img/experiencia-2.png" alt="imagen del encriptador" class="experiencia__imagen">
+            <div class="experiencia__contenido">
+                <h2 class="experiencia__titulo">Encriptador de texto</h2>
+                <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
+                <button class="experiencia__boton__repositorio experiencia__boton__texto"><a href=""
+                        class="experiencia__enlace">Repositorio</a></button>
+                <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2"
+                        href="">Ver demo</a></button>
+            </div>
+        </div>
+
+        <div class="experiencia__container">
+
+            <img src="img/experiencia-3.png" alt="imagen del juego de ahorcado" class="experiencia__imagen">
+            <div class="experiencia__contenido">
+                <h2 class="experiencia__titulo">Encriptador de texto</h2>
+                <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
+                <button class="experiencia__boton__repositorio experiencia__boton__texto"><a class="experiencia__enlace"
+                        href="">Repositorio</a></button>
+                <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2"
+                        href="">Ver demo</a></button>
+            </div>
+        </div>
+
+        <div class="experiencia__container experiencia__container-2">
+
+            <img src="img/experiencia-4.png" alt="imagen del juego de ahorcado" class="experiencia__imagen">
+            <div class="experiencia__contenido">
+                <h2 class="experiencia__titulo">Encriptador de texto</h2>
+                <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
+                <button class="experiencia__boton__repositorio experiencia__boton__texto"><a class="experiencia__enlace"
+                        href="">Repositorio</a></button>
+                <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2"
+                        href="">Ver demo</a></button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto__container">
+        <div class="contacto__izquierda">
+            <img src="./img/contacto.png" alt="teléfono" class="contacto__imagen">
+        </div>
+        <section class="contacto__derecha">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <p class="contacto__subtitulo">¿Quieres contactarme? <br> Completa el siguiente formulario y me pondré en contacto lo antes posible.</p>
+            <form action="./mensaje-enviado.html" class="formulario" id="form">
+
+                    <div class="formulario__grupo">
+                            <input class="input" name="nombre" id="nombre"  type="text" placeholder="Nombre" >
+                        <label class="formulario__label" for="nombre">Nombre</label>
+                            <small class="error-text"></small>
                     </div>
-            </div>
-
-            <div class="experiencia__container">
-
-                    <img src="img/experiencia-3.png" alt="imagen del juego de ahorcado" class="experiencia__imagen">
-                        <div class="experiencia__contenido">
-                            <h2 class="experiencia__titulo">Encriptador de texto</h2>
-                            <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
-                            <button class="experiencia__boton__repositorio experiencia__boton__texto"><a class="experiencia__enlace" href="">Repositorio</a></button>
-                            <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2" href="">Ver demo</a></button>
+                       
+                         
+                        <div class="formulario__grupo">
+                            <input class="input" name="email" id="email"  type="text" placeholder="ejemplo@email.com" >
+                            <label class="formulario__label" for="email">Email</label>
+                            <small class="error-text"></small>
                         </div>
-            </div>
 
-            <div class="experiencia__container experiencia__container-2">
+                       
 
-                        <img src="img/experiencia-4.png" alt="imagen del juego de ahorcado" class="experiencia__imagen">
-                            <div class="experiencia__contenido">
-                                <h2 class="experiencia__titulo">Encriptador de texto</h2>
-                                <p class="experiencia__subtitulos">Challenge Alura Codificador</p>
-                                <button class="experiencia__boton__repositorio experiencia__boton__texto"><a class="experiencia__enlace" href="">Repositorio</a></button>
-                                <button class="experiencia__boton__demo experiencia__boton__texto"><a class="experiencia__enlace-2" href="">Ver demo</a></button>
-                            </div>
-            </div>
+                        <div class="formulario__grupo">
+                            <input class="input" name="affair" id="affair"  type="affair" placeholder="Affair" >
+                            <label class="formulario__label" for="affair">Asunto</label>
+                            <small class="error-text"></small>
+                        </div>
 
-            </div>
-        </section>
-        
-        <section class="contacto" id="contacto">
-            <form class="contacto__form">
-                <div class="contacto__container">
-                    <div class="contacto__container__imagen">
-                        <img class="contacto__imagen" src="img/contacto.png" alt="imagen de un telefono">
-                    </div>
-                    <div class="contacto__container__form">
-                        <h2 class="contacto__form__titulo">Contacto</h2>
-                        <h3 class="contacto__form__subtitulo">¿Querés contactarme?<br>Completa el siguiente formulario y me pondré en contacto con vos lo antes posible.</h3>
-                        <input type="text" class="contacto__input" placeholder="Nombre">
-                        <input type="email" class="contacto__input" placeholder="E-mail">
-                        <input type="text" class="contacto__input" placeholder="Asunto">
-                        <textarea class="contacto__input contacto__input__mensaje" placeholder="Mensaje"></textarea>
-    
-                        <input type="submit" value="Enviar mensaje" class="contacto__boton__enviar">
-                    </div>
-                </div>
+                       
+              
+                        <div class="formulario__grupo">
+                            <input class="input" name="message" id="message"  type="message" placeholder="Message" >
+                            <label class="formulario__label" for="message">Mensaje</label>
+                            <small class="error-text"></small>
+                        </div>
+             
+                    <button  class="formulario__btn" id="formulario-btn" >Enviar mensaje</button>
             </form>
         </section>
-         <!-- Sección de Footer -->
-         <section class="footer">
-            <div class="footer__rodapie">
-                <p>Desarrollado por Cindy Gnaedinger</p>
-                <p>2022</p>
-            </div>
-        </section>
-    </div>
-<!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+    </section>
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodapie">
+            <p>Desarrollado por Cindy Gnaedinger</p>
+            <p>2022</p>
+        </div>
+    </section>
+    <!-- Script del documento JavaScript -->
+    <script src="/script.js"></script>
 </body>
 
 </html>

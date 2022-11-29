@@ -1,0 +1,75 @@
+.formulario__grupo {
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.formulario__grupo label {
+margin-left: 25px;
+}
+
+input {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 16px;
+  color: var(--light-grey);
+  width: 656px;
+  height: 56px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  outline: none;
+  border-bottom: 2px solid var(--light-grey);
+  transition: .3s ease all;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+#message {
+  width: 656px;
+  height: 133px;
+}
+
+input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 3px 0px 30px #66daf771;
+}
+
+.formulario__label {
+  color: var(--light-grey);
+  font-size: 16px;
+  transition: all 0.25s;
+  position: absolute;
+}
+
+input:not(:placeholder-shown)+.formulario__label,
+input:focus+.formulario__label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+  color: var(--secondary-color);
+
+}
+.error-text{
+  color: rgb(212, 62, 62);
+  font-weight: bold;
+  margin-left: 25px;
+ font-size: 11px;
+}
+
+.formulario__grupo.falla input {
+border: 2px solid;
+border-color: #fe5f55;
+}
+.formulario__grupo.ok input {
+  border: 2px solid;
+  border-color: #08ffc8;
+  }
+  

@@ -1,5 +1,5 @@
 .hobbies{
-    background: #F5F5F5;
+    background: #ffffff;
     text-align: center;
     height: 400px;
 }
@@ -20,8 +20,10 @@ grid-column-gap: 30px;
     width: 176px;
     background-color: #fff;
    align-items: flex-end;
-   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-   
+   box-shadow: 0px 1px 10px #00bcddea;
+}
+.hobbies__box:hover{
+    box-shadow: 0px 1px 18px #00BBDD;
 }
 .hobbies__items{
     list-style: none;

@@ -1,11 +1,10 @@
+
 .banner__container{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 80px;
     margin-right: 152px;
     margin-left: 130px;
-    
-
 }
 .banner__titulo__container{
     width: 751px;
@@ -34,7 +33,7 @@ padding-top: 24px;
     width: 368px;
     height: 368px;
     border-radius: 50%;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px #EDE9D0;
 
 }
 .banner__lista{
@@ -55,7 +54,8 @@ font-style: normal;
     line-height: 19px;
 }
 .banner__item__enlace:hover{
-    text-decoration: underline;
+    color: #C3150B;
+    font-weight: bold;
 }
 .banner__item__vector{
     margin-left: 6px;
